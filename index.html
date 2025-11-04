@@ -13,7 +13,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <!-- Global Styles -->
     <style>
       body {
         font-family: 'Exo 2', sans-serif;
@@ -23,30 +22,12 @@
         padding: 0;
       }
     </style>
-
-    <!-- Import Map (AI Studio Build System) -->
-    <script type="importmap">
-    {
-      "imports": {
-        "react/": "https://aistudiocdn.com/react@^19.2.0/",
-        "react": "https://aistudiocdn.com/react@^19.2.0",
-        "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
-        "path": "https://aistudiocdn.com/path@^0.12.7",
-        "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.0",
-        "vite": "https://aistudiocdn.com/vite@^7.1.12",
-        "url": "https://aistudiocdn.com/url@^0.11.4"
-      }
-    }
-    </script>
-
-    <!-- Local Stylesheet (relative path for GitHub Pages) -->
-    <link rel="stylesheet" href="./index.css">
   </head>
 
   <body>
     <div id="root"></div>
 
-    <!-- Entry Point (relative path for GitHub Pages) -->
-    <script type="module" src="./index.tsx"></script>
+    <!-- ✅ This path points to the compiled build output (not TS source) -->
+    <script type="module" src="./src/index.tsx"></script>
   </body>
 </html>
